@@ -1576,8 +1576,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		/*background: #ffffff;
+		border-bottom: solid 1px #ccc;*/
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
 
@@ -2246,7 +2246,7 @@ input, select, textarea {
 				top: 0;
 				display: block;
 				z-index: -1;
-				/*box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);*/
+				box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
 			}
 
 			#intro .middle:after {
@@ -2297,7 +2297,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #e7eae4;
 		padding: 4em 0;
 	}
 
