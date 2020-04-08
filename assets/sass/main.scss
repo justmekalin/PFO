@@ -120,7 +120,7 @@
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'PT Sans';
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
@@ -153,10 +153,18 @@
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
+	h1, h2 {
+		color: #d77958;
+	}
+
+	h3, h4, h5, h6 {
+		color: #83a8b2;
+	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #252122;
 		font-weight: 700;
+		font-family: ;
+		font-family: "Arial Rounded MT Bold";
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1011,7 +1019,7 @@
 				top: 0;
 				display: block;
 				z-index: -1;
-				box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+				/*box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);*/
 			}
 
 			&:after {
@@ -1023,7 +1031,7 @@
 				top: 0;
 				display: block;
 				z-index: -1;
-				box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+				/*box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);*/
 			}
 		}
 
