@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		background-image: #e7eae4;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1621,8 +1621,8 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
-		color: #fff !important;
+		background: #d77958;
+		color: #e7eae4 !important;
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
@@ -1639,7 +1639,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #342217;
 		}
 
 		input[type="button"]:active,
@@ -1647,7 +1647,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #342217;
 		}
 
 		input[type="button"].alt,
@@ -1655,7 +1655,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: #d77958;
 		}
 
 			input[type="button"].alt:hover,
@@ -1663,7 +1663,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #353132;
+				background: #342217;
 			}
 
 			input[type="button"].alt:active,
@@ -1671,7 +1671,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #151112;
+				background: #342217;
 			}
 
 		input[type="button"].icon:before,
@@ -2273,7 +2273,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2290,7 +2290,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7;
 		}
 
 /* Footer */
@@ -2637,8 +2637,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				color: #858484;
-				background-image: url("images/bg02.png");
+				color: #e7eae4;
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 

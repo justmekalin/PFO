@@ -163,7 +163,6 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		font-family: ;
 		font-family: "Arial Rounded MT Bold";
 	}
 
@@ -1398,8 +1397,7 @@
 				top: 0;
 				width: _size(navPanel);
 				z-index: _misc(z-index-base) + 2;
-				color: #858484;
-				background-image: url('images/bg02.png');
+				color: #e7eae4;
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 
 				.link {
