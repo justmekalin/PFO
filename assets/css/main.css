@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
+		background: #342217;
 		background-image: url("images/bg02.png");
 	}
 
@@ -2347,8 +2347,7 @@ input, select, textarea {
 
 		#copyright ul.links {
 			display: inline-block;
-			background: black;
-			background: black;
+			background: #342217
 			border-radius: 5px;
 			margin: 0;
 			padding: 0.85em 2.25em 0.85em 2.25em;
