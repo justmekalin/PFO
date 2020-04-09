@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 /*
 	Dopetrope by HTML5 UP
 	html5up.net | @ajlkn
@@ -159,7 +159,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
+		color: #83a8b2;
 		text-decoration: underline;
 	}
 
@@ -1621,8 +1621,8 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d77958;
-		color: #e7eae4 !important;
+		background: #D77958;
+		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
@@ -1655,7 +1655,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #d77958;
+			background: #83A8B2;
 		}
 
 			input[type="button"].alt:hover,
@@ -1835,7 +1835,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 1.3em;
-			background-color: #d52349;
+			background-color: #d77958;
 			height: 3.5em;
 			text-align: center;
 			color: #fff;
@@ -1850,7 +1850,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: 0;
 				right: -1.2em;
-				border-left: solid 1.25em #d52349;
+				border-left: solid 1.25em #d77958;
 				border-top: solid 1.8em transparent;
 				border-bottom: solid 1.8em transparent;
 			}
@@ -2099,12 +2099,13 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				font-style: italic;
+				font-style: none;
 				margin: 0 0.35em 0 0.35em;
 			}
 
 				#nav > ul > li > ul {
 					display: none;
+					
 				}
 
 				#nav > ul > li > a {
@@ -2117,6 +2118,7 @@ input, select, textarea {
 					-ms-transition: background-color .25s ease-in-out;
 					transition: background-color .25s ease-in-out;
 					outline: 0;
+					font-family: 'PT Sans', sans-serif;
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
@@ -2124,7 +2126,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #D77958;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2180,18 +2182,18 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.png");
+		background: #CCE8F4 url("../../images/banner.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
-		text-align: center;
+		text-align: left;
 		position: relative;
 		padding: 8em 0;
 		margin: 4em 0 0 0;
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: transparent;
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2205,11 +2207,14 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: black;
 				padding: 0;
 				font-style: normal;
-				margin: 0;
-				font-size: 1.5em;
+				margin: 30px;
+				font-size: 1.8em;
+				font-family: 'PT Sans', sans-serif;
+				
+				
 			}
 
 /* Intro */
@@ -2349,8 +2354,8 @@ input, select, textarea {
 
 		#copyright ul.links {
 			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
+			background: black;
+			background: black;
 			border-radius: 5px;
 			margin: 0;
 			padding: 0.85em 2.25em 0.85em 2.25em;
