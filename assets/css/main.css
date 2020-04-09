@@ -2175,7 +2175,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.png");
+		background: #CCE8F4 url("../../images/banner.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2204,7 +2204,7 @@ input, select, textarea {
 				padding: 0;
 				font-style: normal;
 				margin: 0;
-				font-size: 2.3em;
+				font-size: 2.8em;
 				font-family: 'PT Sans', sans-serif;
 				text-align: left;
 			}
