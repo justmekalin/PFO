@@ -2036,7 +2036,7 @@ input, select, textarea {
 				}
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
 					background: #ffffff;
-					color: #342217
+					color: #342217;
 				}
 				#nav > ul > li.current > a {
 					color: #342217 !important;
