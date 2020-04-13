@@ -2027,7 +2027,7 @@ input, select, textarea {
 				#nav > ul > li > a {
 					border-radius: 5px;
 					padding: 0em 6em;
-					color:#342217;
+					color:white;
 					text-decoration: none;
 					-moz-transition: background-color .25s ease-in-out;
 					-webkit-transition: background-color .25s ease-in-out;
@@ -2036,6 +2036,7 @@ input, select, textarea {
 				}
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
 					background: #ffffff;
+					color: #342217
 				}
 				#nav > ul > li.current > a {
 					color: #342217 !important;
