@@ -2006,20 +2006,28 @@ input, select, textarea {
 		}
 
 /* Nav */
+.logo {
+	float: left;
+	margin-top: -15px;
+}
 		#nav > ul {
 			background-color: #83A8B2;
-			padding: 1.5em;
+			padding: 1em;
+			text-align: right;
+			
 		}
 			#nav > ul > li {
-				display: inline;
+				display: inline;				
+				
 			}
 				#nav > ul > li > ul {
 					display: none;
+				
 				}
 				#nav > ul > li > a {
 					border-radius: 5px;
 					padding: 0em 6em;
-					color: white;
+					color:#342217;
 					text-decoration: none;
 					-moz-transition: background-color .25s ease-in-out;
 					-webkit-transition: background-color .25s ease-in-out;
@@ -2027,12 +2035,13 @@ input, select, textarea {
 					transition: background-color .25s ease-in-out;
 				}
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #D77958;
+					background: #ffffff;
 				}
 				#nav > ul > li.current > a {
 					color: #342217 !important;
 					font-weight: 700;
 				}
+				
 
 	.dropotron {
 		border-radius: 5px;
